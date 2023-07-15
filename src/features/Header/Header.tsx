@@ -20,7 +20,7 @@ const Header = () => {
       <Logo />
       <Toggle onCheckedChange={onCheckedChange} />
       <Button type="button" onClick={logout} modifier="secondary">
-        Logout
+        Sign out
       </Button>
     </header>
   );
